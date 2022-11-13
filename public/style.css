@@ -1,8 +1,9 @@
 body {
   word-wrap: break-word;
 }
-img {
-  height: 200px;
+.item img {
+  height: 100%;
+  width: 100%;
 }
 .tierList {
   background: #434141;
@@ -61,10 +62,10 @@ img {
 }
 .form button {
 }
-.item{
+.item {
   height: 90%;
   background-color: aliceblue;
-  width: 110px;
+  width: 150px;
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
@@ -75,7 +76,7 @@ img {
   text-transform: capitalize;
   position: relative;
 }
-.editBtn{
+.editBtn {
   position: absolute;
   top: 5px;
   left: 5px;
@@ -87,11 +88,11 @@ img {
   transition: 0.2s all ease-in-out;
   padding: 0;
 }
-.editBtn:hover{
+.editBtn:hover {
   cursor: pointer;
   background-color: rgb(178, 218, 178);
 }
-.deleteBtn{
+.deleteBtn {
   position: absolute;
   top: 5px;
   right: 5px;
@@ -103,7 +104,7 @@ img {
   transition: 0.2s all ease-in-out;
   padding: 0;
 }
-.deleteBtnI{
+.deleteBtnI {
   width: 100%;
   height: 100%;
   display: flex !important;
@@ -111,7 +112,7 @@ img {
   flex-direction: column;
   justify-content: center;
 }
-.editBtnI{
+.editBtnI {
   width: 100%;
   height: 100%;
   display: flex !important;
@@ -119,17 +120,17 @@ img {
   flex-direction: column;
   justify-content: center;
 }
-.deleteBtn:hover{
+.deleteBtn:hover {
   cursor: pointer;
   background-color: rgb(230, 115, 115);
 }
-.hidden{
+.hidden {
   width: 0;
   height: 0;
   opacity: 0;
 }
-h1{
-  height: 115px;
+h1 {
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
